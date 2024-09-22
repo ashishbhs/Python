@@ -2,6 +2,8 @@ import openpyxl as xl
 from openpyxl.chart import BarChart, Reference
 
 wb = xl.load_workbook('transactions.xlsx')
+# only for this excel sheet,
+# but can be automated to work on n number of files
 sheet = wb['Sheet1']
 # cell = sheet['a1']
 # sheet.cell(1,1)
